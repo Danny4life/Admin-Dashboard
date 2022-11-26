@@ -2,6 +2,7 @@ import Chart from "../../components/chart/Chart"
 import Feature from "../../components/featured/Feature"
 import NavBar from "../../components/navbar/NavBar"
 import Sidebar from "../../components/sidebar/Sidebar"
+import List from "../../components/table/Table"
 import Widget from "../../components/widget/Widget"
 import "./home.scss"
 
@@ -23,6 +24,7 @@ function Home() {
           </div>
           <div className="listContainer">
             <div className="listTitle">Latest Transactions</div>
+            <List />
           </div>
         </div>
     </div>
