@@ -6,6 +6,7 @@ import CreditCardIcon from '@mui/icons-material/CreditCard';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import SettingsIcon from '@mui/icons-material/Settings';
+import { Link } from "react-router-dom"
 
 
 
@@ -13,9 +14,12 @@ const Sidebar = () => {
     return (  
         <div className="sidebar">
             <div className="top">
-                <span className="logo">
-                    SegunAdmin
-                </span>
+                <Link to="/">
+                    <span className="logo">
+                        SegunAdmin
+                    </span>
+                </Link>
+                
             </div>
             <hr />
             <div className="center">
