@@ -9,6 +9,7 @@ import {
   Route,
 } from "react-router-dom";
 import { productInputs, userInputs } from "./Formsource";
+import "./style/dark.scss"
 
 
 
@@ -16,7 +17,7 @@ import { productInputs, userInputs } from "./Formsource";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app dark">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
